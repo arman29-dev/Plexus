@@ -1,10 +1,9 @@
-########  ##       ######## ##     ## ##     ##  ######
-##     ## ##       ##        ##   ##  ##     ## ##    ##
-##     ## ##       ##         ## ##   ##     ## ##
-########  ##       ######      ###    ##     ##  ######
-##        ##       ##         ## ##   ##     ##       ##
-##        ##       ##        ##   ##  ##     ## ##    ##
-##        ######## ######## ##     ##  #######   ######
+██████╗ ██╗     ███████╗██╗  ██╗██╗   ██╗███████╗
+██╔══██╗██║     ██╔════╝╚██╗██╔╝██║   ██║██╔════╝
+██████╔╝██║     █████╗   ╚███╔╝ ██║   ██║███████╗
+██╔═══╝ ██║     ██╔══╝   ██╔██╗ ██║   ██║╚════██║
+██║     ███████╗███████╗██╔╝ ██╗╚██████╔╝███████║
+╚═╝     ╚══════╝╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝
 
   Explore your codebase in 3D — live dependency graph, built-in analysis
 
@@ -363,7 +362,7 @@ flowchart TB
         D --> E[Compute danger score]
         E --> F[churn x in-degree]
         C --> G[Violet dashed edges]
-        F --> H[Risk report (sorted)]
+        F --> H[Risk report sorted]
     end
     subgraph BranchDiff["Branch Diff"]
         I[Branch A] --> J[Compare trees]
@@ -374,13 +373,3 @@ flowchart TB
 ```
 
 ---
-
-## License
-
-Apache
-
----
-
-<p align="center">
-  <sub>Built with Three.js, FastAPI, and an irrational fondness for force-directed layouts.</sub>
-</p>
